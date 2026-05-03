@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+  height: 2000px;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.video-section{
+  display: flex;
+  align-items: center;
+}
+
+.thumbnail{
+  width: 550px;
+  background-color: lightblue;
+  margin-left: 120px;
+  margin-right: 110px;
+}
+
+.text-for-video{
+  
+  margin-bottom: 100px;
+  padding-left: 10px;
+}
+
+.title, .title2 {
+  font-family: "Bodoni Moda", serif;
+  font-size: 35px;
+}
+
+.title2{
+  padding-bottom: 30px;
+}
+
+.description-of-video{
+  padding-bottom: 30px;
+  font-size: 15px;
+}
+
+.watch-link{
+  text-decoration: none;
+  color: rgb(255, 48, 124);
+  font-size: 14px;
+}
+
+

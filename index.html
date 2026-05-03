@@ -2,14 +2,76 @@
 <html>
     <head>
         <title>Consul Travel</title>
-        <link rel="stylesheet" href="">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="navbar.css">
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="section.css">
     </head>
     <body>
         <div class="navbar">
-            <div class="logo">
-                <img src="images/home/consul-travel.png">
+            <div class="logo-place">
+                <img class="logo" src="images/home/consul-travel.png">
             </div>
-            <div class="sections"></div>
+            <div class="sections">
+                <a href="#" class="navbar-text">Home</a>
+                <a href="#" class="navbar-text">About</a>
+                <a href="#" class="navbar-text">Our Services</a>
+                <a href="#" class="navbar-text">Hotels</a>
+                <a href="#" class="navbar-text">Contact</a>
+                <a href="#" class="navbar-text">
+                    <img src="icons/bookmark.svg" class="nav-icon">
+                    Online Booking</a>
+                <a href="#" class="navbar-text en">
+                    <img src="icons/languages.svg" class="nav-icon">
+                    EN</a>
+            </div>
         </div>
+    
+    <section class="hero-slider">
+        <div class="slide active">
+            <img src="http://www.cts-tours.com/Library/images/Backgrounds/Banner-Home-1.jpg" alt="">
+        </div>
+
+        <div class="slide">
+            <img src="http://www.cts-tours.com/Library/images/Backgrounds/Banner-Home-3.webp" alt="">
+        </div>
+
+        <div class="slide">
+            <img src="http://www.cts-tours.com/Library/images/Backgrounds/Banner-Home-4.webp" alt="">
+        </div>
+
+        <button class="slider-btn prev">&#10094;</button>
+        <button class="slider-btn next">&#10095;</button>
+    </section>
+
+    <div class="video-section">
+        <div class="video-place">
+            <a href="#">
+                <img class="thumbnail" src="images/home/photo-video.jpg">
+            </a>
+        </div>
+        <div class="text-for-video">
+            <div class="title">CONSUL TRAVEL</div>
+            <div class="title2">SERVICE</div>
+            <div class="description-of-video">Consul Travel Service 2025 Commercial</div>
+            <a href="#" class="watch-link">WATCH -></a>
+        </div>
+    </div>
+
+    <div class="contact-section">
+        <div class='heading'>Contact</div>
+        <div class="contact-adresses">
+            <div class="istanbul-adress"></div>
+            <div class="antalya-adress"></div>
+            <div class="bodrum-adress"></div>
+            <div class="kapadokya-adress"></div>
+        </div>
+    </div>
+    
+
+        
+
+        <script src="index.js"></script>
     </body>
 </html>
