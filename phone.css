@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+  .navbar {
+    height: 80px;
+    padding: 0 20px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .sections {
+    display: none;
+  }
+
+  .hero-slider {
+    height: 100vh;
+  }
+
+  .slider-btn {
+    width: 45px;
+    height: 45px;
+    font-size: 28px;
+    opacity: 1;
+  }
+
+  .video-section {
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+  .thumbnail {
+    width: 90%;
+    margin: 0 0 35px 0;
+  }
+
+  .title,
+  .title2 {
+    font-size: 32px;
+  }
+
+  .contact-adresses {
+    flex-direction: column;
+    gap: 45px;
+  }
+
+  .footer {
+    height: 140px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .footer p {
+    font-size: 13px;
+  }
+}

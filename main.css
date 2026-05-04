@@ -9,16 +9,17 @@ html,
 body {
   width: 100%;
   overflow-x: hidden;
-  height: 2000px;
 }
 
 body {
   background-color: #ffffff;
 }
 
+/* VIDEO SECTION */
 .video-section{
   display: flex;
   align-items: center;
+  margin-bottom: 200px;
 }
 
 .thumbnail{
@@ -53,5 +54,87 @@ body {
   color: rgb(255, 48, 124);
   font-size: 14px;
 }
+/* VIDEO SECTION */
 
 
+
+
+/* CONTACT SECTION */
+
+.contact-section{
+  margin-bottom: 120px;
+}
+
+.heading{
+  text-align: center;
+  font-family: "Bodoni Moda", serif;
+  font-size: 40px;
+  font-weight: 100;
+  margin-bottom: 60px;
+}
+
+.contact-adresses{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.istanbul-adress, .antalya-adress,
+.bodrum-adress, .kapadokya-adress{
+  display:inline-block;
+  text-align: center;
+
+}
+
+
+.country-name{
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+.istanbul{
+  color: rgb(52, 162, 52);
+}
+
+.antalya{
+  color: orangered;
+}
+
+.bodrum{
+  color: rgb(36, 60, 167);
+}
+
+.kapadokya{
+  color: rgb(138, 71, 36);
+}
+
+.adress{
+  font-size: 12px;
+  padding-bottom: 7px;
+}
+
+.adress-icon{
+  width: 15px;
+}
+
+/* FOOTER */
+.footer {
+  height: 160px;
+  background-color: #303030;
+  color: #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+}
+
+.footer p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer a {
+  color: #ff1475;
+  text-decoration: none;
+}
