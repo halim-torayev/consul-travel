@@ -44,11 +44,33 @@
 }
 
 .navbar-text{
+  position: relative;
   color: #2f2f2f;
   font-size: 16px;
   text-decoration: none;
   gap: 6px;
+  transition: color 0.25s ease;
 }
+
+.navbar-text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+  width: 0%;
+  height: 2px;
+  background: #ff1475;
+  transition: width 0.3s ease;
+}
+
+.navbar-text:hover::after{
+  width: 100%;
+}
+
+.navbar-text:hover{
+  color: #ff1475;
+}
+
 .nav-icon{
   height: 17px;
   width: 17px;

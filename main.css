@@ -138,3 +138,47 @@ body {
   color: #ff1475;
   text-decoration: none;
 }
+
+
+.footer-socials {
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+}
+
+.footer-icon {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.25s ease;
+}
+
+.footer-icon:hover {
+  transform: translateY(-4px) scale(1.15);
+}
+
+.footer-socials {
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+  display: flex;
+  gap: 15px;
+}
+
+.footer-socials a {
+  display: inline-block;
+}
+
+.footer-icon {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.linkedin{
+  height: 28px;
+  width: 28px;
+}
+
+.footer-socials a:hover .footer-icon {
+  transform: translateY(-12px);
+}
