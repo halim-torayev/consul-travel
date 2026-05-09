@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="phone.css">
     </head>
     <body>
+        <!-- NAVBAR SECTION -->
         <div class="navbar">
             <div class="logo-place">
                 <a href="index.html">
@@ -69,7 +70,9 @@
                 </div>
             </div>
         </div>
+        <!-- NAVBAR SECTION (END)-->
     
+    <!-- PHOTO SLIDE SECTION -->
     <section class="hero-slider">
         <div class="slide active">
             <img src="http://www.cts-tours.com/Library/images/Backgrounds/Banner-Home-1.jpg" alt="">
@@ -86,21 +89,37 @@
         <button class="slider-btn prev">&#10094;</button>
         <button class="slider-btn next">&#10095;</button>
     </section>
+    <!-- PHOTO SLIDE SECTION (END)-->
 
+    <!-- VIDEO SECTION -->
     <div class="video-section">
         <div class="video-place">
-            <a href="#">
-                <img class="thumbnail" src="images/home/photo-video.jpg">
-            </a>
+            <img class="thumbnail" src="images/home/photo-video.jpg" alt="Consul Travel Video">
+
+            <button class="play-button" id="openVideo">
+                <span>▶</span>
+            </button>
+        </div>
+
+        <div class="video-modal" id="videoModal">
+            <div class="video-box">
+                <button class="close-video" id="closeVideo">×</button>
+
+                <video controls class="video-player">
+                <source src="video/Consul2025.mp4" type="video/mp4">
+                </video>
+            </div>
         </div>
         <div class="text-for-video">
             <div class="title">CONSUL TRAVEL</div>
             <div class="title2">SERVICE</div>
             <div class="description-of-video">Consul Travel Service 2025 Commercial</div>
-            <a href="#" class="watch-link">WATCH -></a>
+            <a href="video/Consul2025.mp4" class="watch-link">WATCH -></a>
         </div>
     </div>
+    <!-- VIDEO SECTION (END)-->
 
+    <!-- CONTACT SECTION -->
     <div class="contact-section">
         <div class='heading'>Contact</div>
         <div class="contact-adresses">
@@ -146,7 +165,9 @@
             </div>
         </div>
     </div>
+    <!-- CONTACT SECTION (END)-->
 
+    <!-- INSTAGRAM LINKEDIN COPYRIGHT PART -->
     <footer class="footer">
         <div class="footer-socials">
             <a href="https://www.instagram.com/consultravel" target="_blank">
@@ -164,10 +185,10 @@
             | Türsab License - 1932
         </p>
     </footer>
+    <!-- INSTAGRAM LINKEDIN COPYRIGHT PART (END) -->
     
-
-        
-
+        <!-- JAVASCRIPT PART -->
         <script src="index.js"></script>
+        <!-- JAVASCRIPT PART (END)-->
     </body>
 </html>
