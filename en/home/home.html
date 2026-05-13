@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <title>CONDUL TRAVEL SERVICE</title>
+        <title>CONSUL TRAVEL SERVICE</title>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500;600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="/navbar.css">
@@ -11,25 +11,68 @@
         <link rel="stylesheet" href="/phone.css">
     </head>
     <body>
+        <!-- NAVBAR SECTION -->
         <div class="navbar">
             <div class="logo-place">
-                <img class="logo" src="/images/Home/consul-travel.png">
+                <a href="/index.html">
+                    <img class="logo" src="/images/Home/consul-travel.png">
+                </a>
             </div>
             <div class="sections">
-                <a href="/home/ru/" class="navbar-text">Главная</a>
-                <a href="#" class="navbar-text">О нас</a>
-                <a href="#" class="navbar-text">Услуги</a>
-                <a href="#" class="navbar-text">Отели</a>
-                <a href="#" class="navbar-text">Контакты</a>
-                <a href="#" class="navbar-text">
+                <a href="en/home/" class="navbar-text">Home</a>
+                <a href="/en/about/" class="navbar-text">About</a>
+                <div class="services-dropdown">
+                    <a href="#" class="navbar-text services-link">
+                        Our Services <span class="arrow">▼</span>
+                    </a>
+                    <div class="mega-menu">
+                        <div class="menu-column">
+                        <h3>VIP SERVICES</h3>
+                        <a href="#">Cip Lounge</a>
+                        <a href="#">Fast Track</a>
+                        <a href="#">VIP Jet</a>
+                        <a href="#">VIP Yachts</a>
+                        </div>
+
+                        <div class="menu-column">
+                        <h3>VIP TOURS</h3>
+                        <a href="#">City Tours</a>
+                        <a href="#">Historical Tours</a>
+                        <a href="#">Fun Tours</a>
+                        <a href="#">Sport Tours</a>
+                        </div>
+
+                        <div class="menu-column">
+                        <h3>VIP VEHICLES</h3>
+                        <a href="#">Luxury Cars</a>
+                        <a href="#">Airport Transfer</a>
+                        <a href="#">Private Drivers</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="navbar-text">Hotels</a>
+                <a href="#" class="navbar-text">Contact</a>
+                <a href="https://online.cts-tours.com/Agency/Login.aspx" target="_blank" class="navbar-text">
                     <img src="/icons/bookmark.svg" class="nav-icon">
-                    Онлайн резервация</a>
-                <a href="#" class="navbar-text en">
-                    <img src="/icons/languages.svg" class="nav-icon">
-                    EN</a>
+                    Online Booking</a>
+                
+                <div class="language-dropdown">
+                    <a href="#" class="navbar-text language-link">
+                        <img src="/icons/languages.svg" class="nav-icon">
+                        EN <span class="arrow">▼</span>
+                    </a>
+
+                    <div class="language-menu">
+                        <a href="/en/home/">English</a>
+                        <a href="/tr/home/">Türkçe</a>
+                        <a href="/ru/home/">Русский</a>
+                    </div>
+                </div>
             </div>
         </div>
+        <!-- NAVBAR SECTION (END)-->
     
+    <!-- PHOTO SLIDE SECTION -->
     <section class="hero-slider">
         <div class="slide active">
             <img src="http://www.cts-tours.com/Library/images/Backgrounds/Banner-Home-1.jpg" alt="">
@@ -46,21 +89,37 @@
         <button class="slider-btn prev">&#10094;</button>
         <button class="slider-btn next">&#10095;</button>
     </section>
+    <!-- PHOTO SLIDE SECTION (END)-->
 
+    <!-- VIDEO SECTION -->
     <div class="video-section">
         <div class="video-place">
-            <a href="#">
-                <img class="thumbnail" src="/images/home/photo-video.jpg">
-            </a>
+            <img class="thumbnail" src="/images/home/photo-video.jpg" alt="Consul Travel Video">
+
+            <button class="play-button" id="openVideo">
+                <span>▶</span>
+            </button>
+        </div>
+
+        <div class="video-modal" id="videoModal">
+            <div class="video-box">
+                <button class="close-video" id="closeVideo">×</button>
+
+                <video controls class="video-player">
+                <source src="/video/consul2025.mp4" type="video/mp4">
+                </video>
+            </div>
         </div>
         <div class="text-for-video">
             <div class="title">CONSUL TRAVEL</div>
             <div class="title2">SERVICE</div>
             <div class="description-of-video">Consul Travel Service 2025 Commercial</div>
-            <a href="#" class="watch-link">WATCH -></a>
+            <a href="/video/consul2025.mp4" class="watch-link">WATCH -></a>
         </div>
     </div>
+    <!-- VIDEO SECTION (END)-->
 
+    <!-- CONTACT SECTION -->
     <div class="contact-section">
         <div class='heading'>Contact</div>
         <div class="contact-adresses">
@@ -106,18 +165,30 @@
             </div>
         </div>
     </div>
+    <!-- CONTACT SECTION (END)-->
 
+    <!-- INSTAGRAM LINKEDIN COPYRIGHT PART -->
     <footer class="footer">
+        <div class="footer-socials">
+            <a href="https://www.instagram.com/consultravel" target="_blank">
+            <img src="/icons/instagram.svg" class="footer-icon" alt="Instagram">
+            </a>
+
+            <a href="https://www.linkedin.com/company/consul-travel-service/?originalSubdomain=tr" target="_blank">
+                <img src="/icons/linkedin.svg" class="footer-icon linkedin" alt="LinkedIn">
+            </a>
+        </div>
+
         <p>
             Copyright © 2026 By CONSUL IT Department |
             <a href="#">K.V.K.K.</a>
             | Türsab License - 1932
         </p>
     </footer>
+    <!-- INSTAGRAM LINKEDIN COPYRIGHT PART (END) -->
     
-
-        
-
+        <!-- JAVASCRIPT PART -->
         <script src="/index.js"></script>
+        <!-- JAVASCRIPT PART (END)-->
     </body>
 </html>
