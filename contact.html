@@ -1,0 +1,209 @@
+<!doctype html>
+<html>
+<head>
+  <title>Contact | Consul Travel</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <div class="logo-place">
+      <a href="index.html">
+        <img class="logo" src="images/Home/consul-travel.png" alt="Consul Travel">
+      </a>
+    </div>
+
+    <div class="sections">
+      <a href="index.html" class="navbar-text">Home</a>
+      <a href="about.html" class="navbar-text">About</a>
+
+      <div class="services-dropdown">
+        <a href="#" class="navbar-text services-link">
+          Our Services <span class="arrow">▼</span>
+        </a>
+
+        <div class="mega-menu">
+          <div class="menu-column">
+            <h3>VIP SERVICES</h3>
+            <a href="#">Cip Lounge</a>
+            <a href="#">Fast Track</a>
+            <a href="#">VIP Jet</a>
+            <a href="#">VIP Yachts</a>
+          </div>
+
+          <div class="menu-column">
+            <h3>VIP TOURS</h3>
+            <a href="#">City Tours</a>
+            <a href="#">Historical Tours</a>
+            <a href="#">Fun Tours</a>
+            <a href="#">Sport Tours</a>
+          </div>
+
+          <div class="menu-column">
+            <h3>VIP VEHICLES</h3>
+            <a href="#">Luxury Cars</a>
+            <a href="#">Airport Transfer</a>
+            <a href="#">Private Drivers</a>
+          </div>
+        </div>
+      </div>
+
+      <a href="hotel.html" class="navbar-text">Hotels</a>
+      <a href="contact.html" class="navbar-text active-page">Contact</a>
+
+      <a href="https://online.cts-tours.com/Agency/Login.aspx" target="_blank" class="navbar-text">
+        <img src="icons/bookmark.svg" class="nav-icon" alt="">
+        Online Booking
+      </a>
+
+      <div class="language-dropdown">
+        <a href="#" class="navbar-text language-link">
+          <img src="icons/languages.svg" class="nav-icon" alt="">
+          EN <span class="arrow">▼</span>
+        </a>
+
+        <div class="language-menu">
+          <a href="/home/en/">English</a>
+          <a href="/home/tr/">Türkçe</a>
+          <a href="/home/ru/">Русский</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT HERO -->
+  <section class="contact-hero">
+    <div class="contact-hero-content">
+      <p class="small-title">CONTACT US</p>
+      <h1>Let’s Plan Your<br>Next Journey</h1>
+      <p>
+        Our team is ready to help you with VIP transfers, hotels,
+        private tours and personalized travel experiences.
+      </p>
+    </div>
+  </section>
+
+  <!-- OFFICE CARDS -->
+  <section class="offices-section">
+    <p class="section-label">OUR OFFICES</p>
+    <h2>Reach us across Türkiye</h2>
+
+    <div class="office-grid">
+      <div class="office-card">
+        <h3>İstanbul</h3>
+        <p>İnönü Mah. Cumhuriyet Cd.</p>
+        <p>No: 69 Çınarcık Apt. Kat: 4</p>
+        <p>Elmadağ Şişli İstanbul / Türkiye</p>
+        <a href="tel:+902125283074">00 90 212 528 30 74</a>
+        <a href="mailto:ist@consultravel.com.tr">ist@consultravel.com.tr</a>
+      </div>
+
+      <div class="office-card">
+        <h3>Antalya</h3>
+        <p>Yeşilbahçe Mh. Portakalçiçeği Cd.</p>
+        <p>İnci Kent Sitesi A Blok Kat 1 D.4</p>
+        <p>Antalya / Türkiye</p>
+        <a href="tel:+902423122940">00 90 242 312 29 40</a>
+        <a href="mailto:ayt@consultravel.com.tr">ayt@consultravel.com.tr</a>
+      </div>
+
+      <div class="office-card">
+        <h3>Bodrum</h3>
+        <p>Eskiçeşme Mh. Büyük İskender Cd.</p>
+        <p>Akasya Sitesi No:12 Gümbet</p>
+        <p>Bodrum / Muğla / Türkiye</p>
+        <a href="tel:+902523193130">00 90 252 319 31 30</a>
+        <a href="mailto:bodrum@consultravel.com.tr">bodrum@consultravel.com.tr</a>
+      </div>
+
+      <div class="office-card">
+        <h3>Kapadokya</h3>
+        <p>Kavaklıönü, Atatürk Blv. 57/1</p>
+        <p>50400 Ürgüp</p>
+        <p>Kapadokya / Nevşehir / Türkiye</p>
+        <a href="tel:+903845022100">00 90 384 502 21 00</a>
+        <a href="mailto:cappadocia@consultravel.com.tr">cappadocia@consultravel.com.tr</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT FORM -->
+  <section class="contact-form-section">
+    <div class="form-text">
+      <p class="section-label">SEND A MESSAGE</p>
+      <h2>Tell us what you need.</h2>
+      <p>
+        Fill out the form and our team will contact you as soon as possible.
+      </p>
+    </div>
+
+    <form class="contact-form" id="contactForm">
+      <div class="form-row">
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" id="email" placeholder="Your Email">
+      </div>
+
+      <div class="form-row">
+        <input type="text" id="phone" placeholder="Phone Number">
+        <select id="service">
+          <option value="">Select Service</option>
+          <option>VIP Transfer</option>
+          <option>Hotel Reservation</option>
+          <option>Private Tour</option>
+          <option>VIP Services</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <textarea id="message" placeholder="Your Message"></textarea>
+
+      <button type="submit">Send Message</button>
+
+      <p class="form-status" id="formStatus"></p>
+    </form>
+  </section>
+
+  <!-- MAP -->
+  <section class="map-section">
+    <div class="map-overlay">
+      <p class="section-label">LOCATION</p>
+      <h2>Visit Our İstanbul Office</h2>
+    </div>
+
+    <iframe
+      src="https://www.google.com/maps?q=Elmada%C4%9F%20%C5%9Ei%C5%9Fli%20%C4%B0stanbul&output=embed"
+      loading="lazy">
+    </iframe>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-socials">
+      <a href="https://www.instagram.com/consultravel" target="_blank">
+        <img src="icons/instagram.svg" class="footer-icon" alt="Instagram">
+      </a>
+
+      <a href="https://www.linkedin.com/company/consul-travel-service/?originalSubdomain=tr" target="_blank">
+        <img src="icons/linkedin.svg" class="footer-icon linkedin" alt="LinkedIn">
+      </a>
+    </div>
+
+    <p>
+      Copyright © 2026 By CONSUL IT Department |
+      <a href="#">K.V.K.K.</a>
+      | Türsab License - 1932
+    </p>
+  </footer>
+
+  <script src="index.js"></script>
+  <script src="contact.js"></script>
+</body>
+</html>

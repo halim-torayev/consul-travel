@@ -268,3 +268,7 @@
   color: #ff1475;
   transform: translateX(5px);
 }
+
+.active-page {
+  color: #ff1475;
+}

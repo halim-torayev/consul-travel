@@ -1,0 +1,47 @@
+1. Finish Home page
+2. About page
+3. Hotels page
+4. Contact page
+5. Make responsive phone/tablet
+6. Fix navbar links/routing
+7. Add AI chatbox button + simple chat UI
+8. Duplicate to TR / EN / RU
+
+
+
+***************<<Structure for the project>>***************
+
+consul-travel/
+│
+├── index.html              ← temporary main/home page
+├── about.html              ← about page
+├── hotels.html             ← hotels page
+├── contact.html            ← contact page
+│
+├── css/
+│   ├── main.css
+│   ├── navbar.css
+│   ├── home.css
+│   ├── about.css
+│   ├── hotels.css
+│   ├── contact.css
+│   ├── tablet.css
+│   └── phone.css
+│
+├── js/
+│   ├── main.js
+│   ├── slider.js
+│   ├── navbar.js
+│   └── chatbox.js
+│
+├── images/
+│   ├── home/
+│   ├── about/
+│   ├── hotels/
+│   └── logo/
+│
+├── icons/
+│
+├── videos/
+│
+└── README.md

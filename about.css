@@ -14,7 +14,7 @@ body {
   height: 100vh;
   background:
     linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
-    url("images/about/hero.jpg") center/cover no-repeat;
+    url("images/about/hero_aboutPage.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   padding-left: 10%;
@@ -180,7 +180,7 @@ body {
   min-height: 520px;
   background:
     linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
-    url("images/about/closing.jpg") center/cover no-repeat;
+    url("images/about/closing_aboutPage.jpg") center/cover no-repeat;
   color: white;
   display: flex;
   flex-direction: column;
@@ -246,4 +246,11 @@ body {
   .closing-section {
     padding: 80px 30px;
   }
+}
+
+.closing-section .hero-btn {
+  display: inline-block;
+  width: fit-content;
+  align-self: flex-start;
+  padding: 15px 40px;
 }
